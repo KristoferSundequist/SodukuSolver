@@ -1,0 +1,2 @@
+# SodukuSolver
+Sodoku bot
