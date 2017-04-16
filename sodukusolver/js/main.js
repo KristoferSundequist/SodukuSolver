@@ -144,7 +144,7 @@ function Board(){
 		this.drawBoard();
 	};
 	
-	//Ritar ut Tiles[] pÂ en canvas
+	//Ritar ut Tiles[] p√• en canvas
 	this.drawBoard = function(){
 		var row = 0;
 		var col = 0;
@@ -187,11 +187,11 @@ function Board(){
 
 	this.playerInput = function(key, tileId){
 		
-		//Tar ut vilken tileID baserat pÂ x,y pÂ musklicket
+		//Tar ut vilken tileID baserat p√• x,y p√• musklicket
 		//var tileId = this.getTileId(x,y);
 		//console.log("pInput " + key + " " + tileId);
 		//console.log(this.getGroup(tileId));
-		//Om v‰nsterklick
+		//Om v√§nsterklick
 		if(key === 0){
 			Tiles[tileId].reset();
 		//error
@@ -421,7 +421,7 @@ function Board(){
 				
 			}
 		}
-		alert("Bot to dumb");
+		alert("Bot too dumb");
 	};
 }
 
